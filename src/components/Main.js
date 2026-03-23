@@ -11,7 +11,7 @@ const Home = () => {
        items-center justify-center h-full px-4 md:flex-row xs:mt-7 sm'>
         <div className='flex flex-col justify-center h-full'>
           <h2 className='text-4xl sm:text-7xl font-bold 
-          text-white'>
+          text-black'>
            𓆩♡𓆪 Hi! Welcome to my world 𓆩♡𓆪 </h2>
           <p className='text-black font-bold py-4 max-w-md'>
             I have a passion for building responsive 
