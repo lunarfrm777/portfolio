@@ -33,8 +33,14 @@ const Home = () => {
             </Link>
           </div>
         </div>
+        {/* max-h-[60vh] → caps height to 60% of screen */}
         <div className="border-pink-500"> 
-            <img src={HeroImage} alt="Lune profile" className="rounded-2xl mx-auto w-3/4 md:w-2/3 mb-10"/>
+            <img src={HeroImage} alt="Lune profile" className=" rounded-2xl mx-auto 
+    w-3/4 md:w-2/3 
+    max-h-[60vh] 
+    object-contain 
+    mb-10
+  "/>
         </div>
        </div>
     </div>
