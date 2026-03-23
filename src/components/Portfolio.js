@@ -66,13 +66,13 @@ const Portfolio = () => {
                                     Demo
                                 </button>
                             )}
-                            <button
+                            {/* <button
                                 onClick={() => window.open(codeLink, "_blank")}
                                 rel="noreferrer"
                                 className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                             >
                                 Code
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 ))}
