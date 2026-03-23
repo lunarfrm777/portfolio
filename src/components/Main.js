@@ -33,14 +33,19 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        {/* max-h-[60vh] → caps height to 60% of screen */}
         <div className="border-pink-500"> 
+          {/* w-3/4 md:w-2/3 → width is 75% on small, 66% on medium+ screens
+sm:max-h-[50vh] → only applies on small screens (sm: = ≥640px)
+object-contain → maintains aspect ratio
+Large screens → no height cap → uses natural image height */}
+{/* If your “viewport on Windows” is big (say 1440px), then you don’t want the height restriction applied there. Use max-h only below md: or lg::
+
+max-h-[50vh] md:max-h-none */}
             <img src={HeroImage} alt="Lune profile" className=" rounded-2xl mx-auto 
-    w-3/4 md:w-2/3 
-    max-h-[60vh] 
-    object-contain 
-    mb-10
-  "/>
+    w-3/4 md:w-2/3
+    sm:max-h-[50vh] 
+    object-contain
+    mb-10 max-h-[50vh] md:max-h-none"/>
         </div>
        </div>
     </div>
