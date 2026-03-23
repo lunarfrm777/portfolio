@@ -13,7 +13,7 @@ const Home = () => {
           <h2 className='text-4xl sm:text-7xl font-bold 
           text-white'>
            𓆩♡𓆪 Hi! Welcome to my world 𓆩♡𓆪 </h2>
-          <p className='text-black py-4 max-w-md'>
+          <p className='text-black font-bold py-4 max-w-md'>
             I have a passion for building responsive 
             full stack web applications and websites.
             Currently, I love using technologies such as Astro, TypeScript, React, JavaScript, Node and SQL!!
