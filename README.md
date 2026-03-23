@@ -1,6 +1,6 @@
-# <a target="_blank" href="https://dreymoreau.netlify.app/">View Here</a>
+# <a target="_blank" href="">View Here</a>
 
-# What I Learned
+# What I Learned 
 - how to incorporate tailwind wtih react
 - using array methods to loop through information stored in objects inside of components
 - learning about State
