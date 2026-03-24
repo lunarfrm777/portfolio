@@ -44,7 +44,7 @@ const Portfolio = () => {
         //     demoLink: 'https://cohere-appppp.netlify.app/'
         // },
         {
-            id: 7,
+            id: 6,
             src: meowApi,
             demoLink: 'https://meow-api-i9z4.onrender.com/'
         },
