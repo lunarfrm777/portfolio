@@ -3,7 +3,7 @@ import moodboard from "../assets/project-assets/moodboard.png"
 import bakery from "../assets/project-assets/bakery.png"
 import meowApi from '../assets/project-assets/meowApi.png'
 import treesForLife from '../assets/project-assets/treesForLife.png'
-import cohereGen from '../assets/project-assets/cohereGen.png'
+// import cohereGen from '../assets/project-assets/cohereGen.png'
 import torontoJsVol from '../assets/project-assets/torontoJSVol.png'
 import torontoJsBl from '../assets/project-assets/torontojs-blog.png'
 
