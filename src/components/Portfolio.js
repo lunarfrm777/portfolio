@@ -21,23 +21,23 @@ const Portfolio = () => {
             demoLink: 'https://blog.torontojs.com/'
         },
         {
-            id: 2,
+            id: 3,
             src: torontoJsVol,
             codeLink: 'https://github.com/torontojs/torontojs.com',
             demoLink: 'https://torontojs.com/volunteers'
         },
         {
-            id: 3,
+            id: 4,
             src: treesForLife,
             demoLink: 'https://treesareneededforlife.netlify.app/'
         },
         {
-            id: 4,
+            id: 5,
             src: cohereGen,
             demoLink: 'https://cohere-appppp.netlify.app/'
         },
         {
-            id: 5,
+            id: 6,
             src: meowApi,
             demoLink: 'https://meow-api-i9z4.onrender.com/'
         },
