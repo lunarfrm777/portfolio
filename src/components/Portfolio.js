@@ -1,4 +1,5 @@
 import React from 'react'
+import moodboard from "../assets/project-assets/moodboard.png"
 import meowApi from '../assets/project-assets/meowApi.png'
 import treesForLife from '../assets/project-assets/treesForLife.png'
 import cohereGen from '../assets/project-assets/cohereGen.png'
@@ -10,6 +11,11 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
+            src: moodboard,
+            demoLink: 'https://moodboard2026.netlify.app/'
+        },
+        {
+            id: 2,
             src: torontoJsBl,
             codeLink: 'https://github.com/torontojs/blog',
             demoLink: 'https://blog.torontojs.com/'
