@@ -1,5 +1,6 @@
 import React from 'react'
 import moodboard from "../assets/project-assets/moodboard.png"
+import bakery from "../assets/project-assets/bakery.png"
 import meowApi from '../assets/project-assets/meowApi.png'
 import treesForLife from '../assets/project-assets/treesForLife.png'
 import cohereGen from '../assets/project-assets/cohereGen.png'
@@ -13,31 +14,37 @@ const Portfolio = () => {
             id: 1,
             src: moodboard,
             demoLink: 'https://moodboard2026.netlify.app/'
+        },{
+            id: 2,
+            src: bakery,
+            demoLink: 'https://lunesbakery.netlify.app/'
         },
         {
-            id: 2,
+            id: 3,
             src: torontoJsBl,
             codeLink: 'https://github.com/torontojs/blog',
             demoLink: 'https://blog.torontojs.com/'
         },
         {
-            id: 3,
+            id: 4,
             src: torontoJsVol,
             codeLink: 'https://github.com/torontojs/torontojs.com',
             demoLink: 'https://torontojs.com/volunteers'
         },
         {
-            id: 4,
+            id: 5,
             src: treesForLife,
             demoLink: 'https://treesareneededforlife.netlify.app/'
         },
+
+        // fix this ? maybe just need to fork from old github
+        // {
+        //     id: 6,
+        //     src: cohereGen,
+        //     demoLink: 'https://cohere-appppp.netlify.app/'
+        // },
         {
-            id: 5,
-            src: cohereGen,
-            demoLink: 'https://cohere-appppp.netlify.app/'
-        },
-        {
-            id: 6,
+            id: 7,
             src: meowApi,
             demoLink: 'https://meow-api-i9z4.onrender.com/'
         },
