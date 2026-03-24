@@ -1,5 +1,6 @@
 import React from 'react'
 import moodboard from "../assets/project-assets/moodboard.png"
+import photog from "../assets/project-assets/photog.png"
 import bakery from "../assets/project-assets/bakery.png"
 import meowApi from '../assets/project-assets/meowApi.png'
 import treesForLife from '../assets/project-assets/treesForLife.png'
@@ -11,13 +12,19 @@ const Portfolio = () => {
 
     const portfolios = [
         {
-            id: 1,
-            src: moodboard,
-            demoLink: 'https://moodboard2026.netlify.app/'
-        },{
             id: 2,
             src: bakery,
             demoLink: 'https://lunesbakery.netlify.app/'
+        },
+        {
+            id: 2,
+            src: photog,
+            demoLink: 'https://lunesphotos.netlify.app'
+        }
+        {
+            id: 1,
+            src: moodboard,
+            demoLink: 'https://moodboard2026.netlify.app/'
         },
         {
             id: 3,
