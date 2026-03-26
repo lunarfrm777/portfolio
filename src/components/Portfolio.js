@@ -12,7 +12,7 @@ const Portfolio = () => {
 
     const portfolios = [
         {
-            id: 2,
+            id: 1,
             src: bakery,
             demoLink: 'https://lunesbakery.netlify.app/'
         },
@@ -20,11 +20,6 @@ const Portfolio = () => {
             id: 2,
             src: photog,
             demoLink: 'https://photosbylune.netlify.app'
-        }
-        {
-            id: 1,
-            src: moodboard,
-            demoLink: 'https://moodboard2026.netlify.app/'
         },
         {
             id: 3,
@@ -32,14 +27,19 @@ const Portfolio = () => {
             codeLink: 'https://github.com/torontojs/blog',
             demoLink: 'https://blog.torontojs.com/'
         },
-        {
+         {
             id: 4,
+            src: moodboard,
+            demoLink: 'https://moodboard2026.netlify.app/'
+        },
+        {
+            id: 5,
             src: torontoJsVol,
             codeLink: 'https://github.com/torontojs/torontojs.com',
             demoLink: 'https://torontojs.com/volunteers'
         },
         {
-            id: 5,
+            id: 6,
             src: treesForLife,
             demoLink: 'https://treesareneededforlife.netlify.app/'
         },
