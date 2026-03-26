@@ -19,7 +19,7 @@ const Portfolio = () => {
         {
             id: 2,
             src: photog,
-            demoLink: 'https://lunesphotos.netlify.app'
+            demoLink: 'https://photosbylune.netlify.app'
         }
         {
             id: 1,
