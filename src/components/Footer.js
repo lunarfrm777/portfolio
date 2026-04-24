@@ -32,23 +32,23 @@ const Footer = () => {
     <div className='flex justify-between items-center w-full h-20 
     px-4 text-white bg-pink-500 border-t border-black-200'>
         <div>
-            <h1 className="text-5xl font-signature ml-2"> ♡ Lune ♡</h1>
+            <h1 className="text-5xl font-signature ml-2 text-black font-bold"> ♡ Lune ♡</h1>
         </div>
 
-        <ul className='hidden md:flex'>
+        <ul className='hidden md:flex text-black font-bold'>
 
             {links.map(({id, link}) => (
                 <li 
                 key={id} 
                 className='px-4 cursor-pointer capitalize
                 font-medium text-white hover:scale-105 duration-200'>
-               <Link to={link} smooth duration={500}> {link} </Link>
+               <Link to={link} smooth duration={500} className="text-black font-bold"> {link} </Link>
                 </li>
             ))}
         </ul>
 
         <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 
-        text-gray-500 md:hidden'>
+       text-black font-bold md:hidden'>
             {nav ? <FaTimes size={30} /> : <FaBars size={30}/>} 
         </div>
 
@@ -59,7 +59,7 @@ const Footer = () => {
                    {links.map(({id, link}) => (
                      <li 
                      key={id} 
-                     className='px-4 cursor-pointer capitalize py-6 text-4xl'>
+                     className='px-4 cursor-pointer capitalize py-6 text-4xl text-black font-bold'>
                       <Link onClick={() => setNav(!nav)}
                       to={link} 
                       smooth 
