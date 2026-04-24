@@ -13,33 +13,39 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
+            title: "Lune's Bakery Demo",
             src: bakery,
             demoLink: 'https://lunesbakery.netlify.app/'
         },
         {
             id: 2,
+            title: "TorontoJS Blog Demo",
             src: torontoJsBl,
             codeLink: 'https://github.com/torontojs/blog',
             demoLink: 'https://blog.torontojs.com/'
         },
          {
             id: 3,
+            title: "PhotosByLune Demo",
             src: photog,
             demoLink: 'https://photosbylune.netlify.app'
         },
          {
             id: 4,
+            title: "Moodboard Demo",
             src: moodboard,
             demoLink: 'https://moodboard2026.netlify.app/'
         },
         {
             id: 5,
             src: torontoJsVol,
+            title: "TorontoJS Volunteer Demo",
             codeLink: 'https://github.com/torontojs/torontojs.com',
             demoLink: 'https://torontojs.com/volunteers'
         },
         {
             id: 6,
+            title: "TreesForLife Demo",
             src: treesForLife,
             demoLink: 'https://treesareneededforlife.netlify.app/'
         },
@@ -52,6 +58,7 @@ const Portfolio = () => {
         // },
         {
             id: 6,
+            title: "Meow Api Demo",
             src: meowApi,
             demoLink: 'https://meow-api-i9z4.onrender.com/'
         },
@@ -68,7 +75,7 @@ const Portfolio = () => {
             <div className='grid py-6 sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 mb-20'>
                 
             {
-                portfolios.map(({ id, src, codeLink, demoLink }) => (
+                portfolios.map(({ id, src, title, codeLink, demoLink }) => (
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                         <img
                             src={src}
@@ -82,7 +89,7 @@ const Portfolio = () => {
                                     rel="noreferrer"
                                     className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                                 >
-                                    Demo
+                                    {title}
                                 </button>
                             )}
                             {/* <button
