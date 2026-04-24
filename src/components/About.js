@@ -8,7 +8,7 @@ const About = () => {
         justify-center w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4
-                border-gray-500'>About</p>
+                border-green-500'>About</p>
             </div>
 
             <p className='text-xl mb-20'>
