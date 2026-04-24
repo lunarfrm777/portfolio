@@ -6,7 +6,6 @@ import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer"
-// import Events from "./components/Events"
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
       <Main />
       <About />
       <Portfolio />
-      {/* <Events /> */}
       <Experience />
       <Contact />
       <SocialLinks />
