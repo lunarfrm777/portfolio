@@ -18,14 +18,14 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: photog,
-            demoLink: 'https://photosbylune.netlify.app'
-        },
-        {
-            id: 3,
             src: torontoJsBl,
             codeLink: 'https://github.com/torontojs/blog',
             demoLink: 'https://blog.torontojs.com/'
+        },
+         {
+            id: 3,
+            src: photog,
+            demoLink: 'https://photosbylune.netlify.app'
         },
          {
             id: 4,
