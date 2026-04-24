@@ -9,25 +9,30 @@ const Contact = () => {
                 <p className='py-6'>Submit the form below to connect!</p>
             </div>
 
-            <div className='flex justify-center items-center'>
+            <div className='flex justify-center items-center color-black border-black'>
                 <form action="https://getform.io/f/59ef8857-e2e1-4686-9918-9503458daf07" 
                 method='POST'
                 className='flex flex-col w-full md:w-1/2'>
                     <input 
-                    type='text' 
-                    name='name' 
-                    placeholder='Enter your name' className='p-2 bg-transparent border-2 rounded-md text-black font-bold focus:outline-none'/>
+                            type='text' 
+                            name='name' 
+                            placeholder='Enter your name' 
+                            className='p-2 bg-transparent border-2 border-black rounded-md text-black font-bold placeholder-black focus:outline-none'
+                            />
 
-                    <input 
-                    type='text' 
-                    name='email' 
-                    placeholder='Enter your email' className='my-4 p-2 bg-transparent border-2 rounded-md text-black font-bold focus:outline-none'/>
-                    
-                    <textarea 
-                    name='message' 
-                    rows='10' 
-                    placeholder="Enter your message"
-                    className='p-2 bg-transparent border-2 rounded-md text-black font-bold focus:outline-none'></textarea>
+                            <input 
+                            type='text' 
+                            name='email' 
+                            placeholder='Enter your email' 
+                            className='my-4 p-2 bg-transparent border-2 border-black rounded-md text-black font-bold placeholder-black focus:outline-none'
+                            />
+
+                            <textarea 
+                            name='message' 
+                            rows='10' 
+                            placeholder="Enter your message"
+                            className='p-2 bg-transparent border-2 border-black rounded-md text-black font-bold placeholder-black focus:outline-none'
+                            ></textarea>
 
                     <button 
                     className='text-black font-bold bg-gradient-to-b from-orange-500 to-pink-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>Lets connect!</button>
