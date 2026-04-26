@@ -12,7 +12,10 @@ const About = () => {
             </div>
 
             <p className='text-xl mb-20'>
-                Prior to the pandemic I was a freelancing artist, as a photographer and painter. Through the pandemic, I got a concussion as I was in the crypto space. Learning about smart contracts made me super interested into how to build it. As I was taking time from the crypto space, I started learning how to code. I found my passion of software development unexpectedly and transitioned into tech. It has allowed me to connect with lots of amazing developers in tech while working on client projects to achieve their goals as well as building projects focused on my passions. 
+                I began my career as a freelance photographer and painter before the pandemic. During that time, an interest in crypto and smart contracts led me to explore how software is built. 
+                After taking time away due to a concussion, I started learning to code and discovered a passion for software development. 
+                I’ve since transitioned into tech, collaborating with developers, building client projects, and creating work aligned with my interests. 
+                Outside of tech, I enjoy chess, bird listening and photography, and yoga.
             </p>
         </div>
     </div>
