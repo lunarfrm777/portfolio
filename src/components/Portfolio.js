@@ -2,6 +2,7 @@ import React from 'react'
 import moodboard from "../assets/project-assets/moodboard.png"
 import photog from "../assets/project-assets/photog.png"
 import bakery from "../assets/project-assets/bakery.png"
+import ll from "../assets/project-assets/ll.png"
 import torontoJsBl from '../assets/project-assets/torontojs-blog.png'
 import torontoJsVol from '../assets/project-assets/torontoJSVol.png'
 import treesForLife from '../assets/project-assets/treesForLife.png'
@@ -31,26 +32,26 @@ const Portfolio = () => {
             demoLink: 'https://lune-s-landscape.webflow.io/'
         },
          {
-            id: 3,
+            id: 4,
             title: "PhotosByLune Demo",
             src: photog,
             demoLink: 'https://photosbylune.netlify.app'
         },
          {
-            id: 4,
+            id: 5,
             title: "Moodboard Demo",
             src: moodboard,
             demoLink: 'https://moodboard2026.netlify.app/'
         },
         {
-            id: 5,
+            id: 6,
             src: torontoJsVol,
             title: "TorontoJS Volunteer Demo",
             codeLink: 'https://github.com/torontojs/torontojs.com',
             demoLink: 'https://torontojs.com/volunteers'
         },
         {
-            id: 6,
+            id: 7,
             title: "TreesForLife Demo",
             src: treesForLife,
             demoLink: 'https://treesareneededforlife.netlify.app/'
