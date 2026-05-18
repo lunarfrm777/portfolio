@@ -1,9 +1,9 @@
 import React from 'react'
-import moodboard from "../assets/project-assets/moodboard.png"
-import photog from "../assets/project-assets/photog.png"
-import bakery from "../assets/project-assets/bakery.png"
 import ll from "../assets/project-assets/ll.png"
+import bakery from "../assets/project-assets/bakery.png"
 import torontoJsBl from '../assets/project-assets/torontojs-blog.png'
+import photog from "../assets/project-assets/photog.png"
+import moodboard from "../assets/project-assets/moodboard.png"
 import torontoJsVol from '../assets/project-assets/torontoJSVol.png'
 import treesForLife from '../assets/project-assets/treesForLife.png'
 import meowApi from '../assets/project-assets/meowApi.png'
@@ -12,24 +12,24 @@ import meowApi from '../assets/project-assets/meowApi.png'
 const Portfolio = () => {
 
     const portfolios = [
-        {
+         {
             id: 1,
+            title: "Lunes Landscaping Demo",
+            src: ll,
+            demoLink: 'https://lune-s-landscape.webflow.io/'
+        },
+        {
+            id: 2,
             title: "Lune's Bakery Demo",
             src: bakery,
             demoLink: 'https://lunesbakery.netlify.app/'
         },
         {
-            id: 2,
+            id: 3,
             title: "TorontoJS Blog Demo",
             src: torontoJsBl,
             codeLink: 'https://github.com/torontojs/blog',
             demoLink: 'https://blog.torontojs.com/'
-        },
-        {
-            id: 3,
-            title: "Lunes Landscaping Demo",
-            src: ll,
-            demoLink: 'https://lune-s-landscape.webflow.io/'
         },
          {
             id: 4,
@@ -56,20 +56,18 @@ const Portfolio = () => {
             src: treesForLife,
             demoLink: 'https://treesareneededforlife.netlify.app/'
         },
-
-        // fix this ? maybe just need to fork from old github
+        {
+            id: 8,
+            title: "Meow Api Demo",
+            src: meowApi,
+            demoLink: 'https://meow-api-i9z4.onrender.com/'
+        }
+         // fix this ? maybe just need to fork from old github
         // {
         //     id: 6,
         //     src: cohereGen,
         //     demoLink: 'https://cohere-appppp.netlify.app/'
         // },
-        {
-            id: 6,
-            title: "Meow Api Demo",
-            src: meowApi,
-            demoLink: 'https://meow-api-i9z4.onrender.com/'
-        },
-        
     ]
 
   return (
