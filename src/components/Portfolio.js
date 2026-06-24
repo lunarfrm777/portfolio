@@ -1,5 +1,6 @@
 import React from 'react'
 import careconnect from "../assets/project-assets/careconnect.png"
+import sunlightgardens from "../assets/project-assets/sunlight-gardens.png"
 import ll from "../assets/project-assets/ll.png"
 import bakery from "../assets/project-assets/bakery.png"
 import torontoJsBl from '../assets/project-assets/torontojs-blog.png'
@@ -17,7 +18,13 @@ const Portfolio = () => {
             id: 1,
             title: "Care Connect Demo",
             src: careconnect,
-            demoLink: 'https:/careconnect-1q2d.onrender.com'
+            demoLink: 'https://careconnect-1q2d.onrender.com'
+        },
+           {
+            id: 2,
+            title: "Sunlight Gardens",
+            src: sunlightgardens,
+            demoLink: 'https://sunlight-gardens.netlify.app/'
         },
          {
             id: 2,
