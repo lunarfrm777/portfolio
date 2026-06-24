@@ -22,7 +22,7 @@ const Portfolio = () => {
         },
            {
             id: 2,
-            title: "Sunlight Gardens",
+            title: "Sunlight Gardens Demo",
             src: sunlightgardens,
             demoLink: 'https://sunlight-gardens.netlify.app/'
         },
