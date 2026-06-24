@@ -69,6 +69,11 @@ const Footer = () => {
                  ))}
              </ul>
         )}
+        <div className='flex items-center gap-2 text-black font-bold text-lg'>
+            <a href="https://webring.ca/prev/lune" className='hover:scale-105 duration-200'>←</a>
+            <a href="https://webring.ca" className='hover:scale-105 duration-200'>🍁</a>
+            <a href="https://webring.ca/next/lune" className='hover:scale-105 duration-200'>→</a>
+        </div>
     </div>
   )
 }
