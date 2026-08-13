@@ -1,6 +1,7 @@
 import React from 'react'
 import careconnect from "../assets/project-assets/careconnect.png"
 import sunlightgardens from "../assets/project-assets/sunlight-gardens.png"
+import blog from "../assets/project-assets/blog.png"
 import ll from "../assets/project-assets/ll.png"
 import bakery from "../assets/project-assets/bakery.png"
 import torontoJsBl from '../assets/project-assets/torontojs-blog.png'
@@ -27,9 +28,9 @@ const Portfolio = () => {
             demoLink: 'https://sunlight-gardens.netlify.app/'
         },{
             id: 3,
-            title: "Lunes Landscaping Demo",
-            src: ll,
-            demoLink: 'https://lune-s-landscape.webflow.io/'
+            title: "Blog Demo",
+            src: blog,
+            demoLink: 'https://v1blog.netlify.app/'
         },
          {
             id: 4,
